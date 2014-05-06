@@ -45,6 +45,7 @@
   ./misc/assertions.nix
   ./misc/check-config.nix
   ./misc/crashdump.nix
+  ./misc/extra-arguments.nix
   ./misc/ids.nix
   ./misc/lib.nix
   ./misc/locate.nix
