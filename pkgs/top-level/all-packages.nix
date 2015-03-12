@@ -9629,9 +9629,17 @@ let
 
   cacert = callPackage ../data/misc/cacert { };
 
+  caladea = callPackage ../data/fonts/caladea {};
+
   cantarell_fonts = callPackage ../data/fonts/cantarell-fonts { };
 
+  carlito = callPackage ../data/fonts/carlito {};
+
+  comfortaa = callPackage ../data/fonts/comfortaa {};
+
   comic-neue = callPackage ../data/fonts/comic-neue { };
+
+  comic-relief = callPackage ../data/fonts/comic-relief {};
 
   corefonts = callPackage ../data/fonts/corefonts { };
 
@@ -9643,6 +9651,8 @@ let
   clearlyU = callPackage ../data/fonts/clearlyU { };
 
   cm_unicode = callPackage ../data/fonts/cm-unicode {};
+
+  crimson = callPackage ../data/fonts/crimson {};
 
   dejavu_fonts = callPackage ../data/fonts/dejavu-fonts {
     inherit (perlPackages) FontTTF;
@@ -9677,6 +9687,8 @@ let
   dosemu_fonts = callPackage ../data/fonts/dosemu-fonts { };
 
   eb-garamond = callPackage ../data/fonts/eb-garamond { };
+
+  fantasque-sans-mono = callPackage ../data/fonts/fantasque-sans-mono {};
 
   fira = callPackage ../data/fonts/fira { };
 
@@ -9720,6 +9732,8 @@ let
 
   lmodern = callPackage ../data/fonts/lmodern { };
 
+  lobster-two = callPackage ../data/fonts/lobster-two {};
+
   lohit-fonts = callPackage ../data/fonts/lohit-fonts { };
 
   manpages = callPackage ../data/documentation/man-pages { };
@@ -9748,6 +9762,8 @@ let
 
   opensans-ttf = callPackage ../data/fonts/opensans-ttf { };
 
+  pecita = callPackage ../data/fonts/pecita {};
+
   poly = callPackage ../data/fonts/poly { };
 
   posix_man_pages = callPackage ../data/documentation/man-pages-posix { };
@@ -9771,6 +9787,10 @@ let
   iana_etc = callPackage ../data/misc/iana-etc { };
 
   poppler_data = callPackage ../data/misc/poppler-data { };
+
+  quattrocento = callPackage ../data/fonts/quattrocento {};
+
+  quattrocento-sans = callPackage ../data/fonts/quattrocento-sans {};
 
   r3rs = callPackage ../data/documentation/rnrs/r3rs.nix { };
 
