@@ -11087,6 +11087,7 @@ let
     zip = zip.override { enableNLS = false; };
     boost = boost155;
     glm = glm_0954;
+    bluez5 = bluez5_28;
     fontsConf = makeFontsConf {
       fontDirectories = [
         freefont_ttf xorg.fontmiscmisc xorg.fontbhttf
@@ -11097,7 +11098,6 @@ let
     harfbuzz = harfbuzz.override {
       withIcu = true; withGraphite2 = true;
     };
-    bluez5 = bluez5_28;
   };
 
   liferea = callPackage ../applications/networking/newsreaders/liferea {
