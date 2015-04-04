@@ -5920,6 +5920,7 @@ let
 
   gnutls32 = callPackage ../development/libraries/gnutls/3.2.nix {
     guileBindings = config.gnutls.guile or false;
+    nettle = nettle27;
   };
 
   gnutls_with_guile = lowPrio (gnutls.override { guileBindings = true; });
@@ -7071,7 +7072,7 @@ let
   };
 
   nettle27 = callPackage ../development/libraries/nettle/27.nix { };
-  nettle = nettle27;
+  nettle = callPackage ../development/libraries/nettle { };
 
   newt = callPackage ../development/libraries/newt { };
 
