@@ -3227,6 +3227,8 @@ let
 
   zdelta = callPackage ../tools/compression/zdelta { };
 
+  zerotierone = callPackage ../tools/networking/zerotierone { };
+
   zfstools = callPackage ../tools/filesystems/zfstools { };
 
   zile = callPackage ../applications/editors/zile { };
