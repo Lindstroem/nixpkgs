@@ -6957,6 +6957,8 @@ let
 
   matio = callPackage ../development/libraries/matio { };
 
+  mbedtls = callPackage ../development/libraries/mbedtls { };
+
   mdds_0_7_1 = callPackage ../development/libraries/mdds/0.7.1.nix { };
   mdds = callPackage ../development/libraries/mdds { };
 
@@ -7240,6 +7242,8 @@ let
   podofo = callPackage ../development/libraries/podofo { lua5 = lua5_1; };
 
   poker-eval = callPackage ../development/libraries/poker-eval { };
+
+  polarssl = mbedtls;
 
   polkit = callPackage ../development/libraries/polkit {
     spidermonkey = spidermonkey_17;
