@@ -3231,6 +3231,8 @@ let
 
   zerotierone = callPackage ../tools/networking/zerotierone { };
 
+  zerofree = callPackage ../tools/filesystems/zerofree { };
+
   zfstools = callPackage ../tools/filesystems/zfstools { };
 
   zile = callPackage ../applications/editors/zile { };
