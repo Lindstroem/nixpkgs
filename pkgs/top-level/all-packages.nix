@@ -7192,9 +7192,7 @@ let
     };
   };
 
-  ortp = callPackage ../development/libraries/ortp {
-    srtp = srtp_linphone;
-  };
+  ortp = callPackage ../development/libraries/ortp { };
 
   p11_kit = callPackage ../development/libraries/p11-kit { };
 
