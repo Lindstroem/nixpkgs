@@ -2171,7 +2171,9 @@ let
 
   ntopng = callPackage ../tools/networking/ntopng { };
 
-  ntp = callPackage ../tools/networking/ntp { };
+  ntp = callPackage ../tools/networking/ntp {
+    libcap = if stdenv.isLinux then libcap else null;
+  };
 
   numdiff = callPackage ../tools/text/numdiff { };
 
